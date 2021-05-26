@@ -1,0 +1,69 @@
+@media all {
+    body {
+        color: red;
+        text-align: left;
+        text-shadow: yellow;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        background-repeat: repeat;
+        background-color: violet;
+    }
+    p {
+        color: black;
+        font-weight: 900;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        direction: rtl;
+    }
+    h1,
+    h2 {
+        text-decoration: underline;
+    }
+    .mystyle {
+        background-color: gray;
+    }
+    .mystyle2 {
+        color: black;
+    }
+    a:hover {
+        color: green;
+        background-color: white;
+    }
+    .postion1 {
+        position: fixed;
+        right: 10px;
+        top: 50px;
+        background-color: yellowgreen;
+        width: 100%;
+        text-align: right;
+        display: none;
+    }
+    div {
+        border: black solid 1px;
+        border-radius: 15px;
+        padding: 15px 15px 15px 15px;
+        color: black;
+        padding-top: 30px;
+        margin-top: 30px;
+        border-right: 0px;
+        box-shadow: 5px 5px 5px #ff0000;
+    }
+    nav {
+        background-color: green;
+        width: 100%;
+        height: 50px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav:hover ul {
+        display: block;
+    }
+}
+
+@media print {
+    body {
+        color: black;
+    }
+}
