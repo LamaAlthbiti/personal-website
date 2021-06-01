@@ -1,0 +1,48 @@
+
+/*################# TAG SELECTOR #####################*/
+body{
+  background-color: #faf1e6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Amiri', serif;
+}
+
+h1{
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+  margin:0 auto 0 auto;
+}
+
+/*################# CLASS SELECTOR #####################*/
+.top_div{
+  background: #e4efe7;
+  height: auto;
+  padding-top:60px;
+}
+
+.middle_div{
+  background-color: #fdfaf6;
+  height: 200px;
+  width: 100%;
+}
+
+.bottom_div{
+  background-color:#e4efe7;
+  height: auto;
+  width: 100%;
+}
+
+
+
+/*################# ID SELECTOR #####################*/
+#img0{
+margin-bottom: 10px;
+position: relative;
+left: 15%;
+}
+
+#img1{
+margin-top: 30px;
+position: absolute;
+left: 30%;
+}
