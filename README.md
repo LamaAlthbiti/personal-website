@@ -1,2 +1,2 @@
-# Web development
-## In this repository, I show my personal website, it is under development.
+# Persinal-website
+## In this repository, I show my personal website, and it is under development.
